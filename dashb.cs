@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RoomBookingDSII
 {
-    public partial class Form1 : Form
+    public partial class dashb : Form
     {
-        public Form1()
+        public dashb()
         {
             InitializeComponent();
         }
