@@ -63,6 +63,16 @@ namespace RoomBookingDSII.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1200px_Eo_circle_orange_blank_svg {
+            get {
+                object obj = ResourceManager.GetObject("1200px-Eo_circle_orange_blank.svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_booking_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-booking-64", resourceCulture);
@@ -136,6 +146,16 @@ namespace RoomBookingDSII.Properties {
         internal static System.Drawing.Bitmap icons8_user_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-user-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pan_Blue_Circle {
+            get {
+                object obj = ResourceManager.GetObject("Pan_Blue_Circle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
