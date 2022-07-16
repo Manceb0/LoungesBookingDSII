@@ -37,7 +37,7 @@ namespace RoomBookingDSII
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.Dashboard = new System.Windows.Forms.Label();
-            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipseBack = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.guna2ProgressBar2 = new Guna.UI2.WinForms.Guna2ProgressBar();
@@ -54,9 +54,9 @@ namespace RoomBookingDSII
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipseTop = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipseFront = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
@@ -164,10 +164,10 @@ namespace RoomBookingDSII
             this.Dashboard.TabIndex = 4;
             this.Dashboard.Text = "Dashboard";
             // 
-            // bunifuElipse2
+            // bunifuElipseBack
             // 
-            this.bunifuElipse2.ElipseRadius = 30;
-            this.bunifuElipse2.TargetControl = this;
+            this.bunifuElipseBack.ElipseRadius = 30;
+            this.bunifuElipseBack.TargetControl = this;
             // 
             // panel4
             // 
@@ -335,10 +335,10 @@ namespace RoomBookingDSII
             this.panel2.Size = new System.Drawing.Size(91, 80);
             this.panel2.TabIndex = 30;
             // 
-            // bunifuElipse3
+            // bunifuElipseTop
             // 
-            this.bunifuElipse3.ElipseRadius = 30;
-            this.bunifuElipse3.TargetControl = this.panel5;
+            this.bunifuElipseTop.ElipseRadius = 30;
+            this.bunifuElipseTop.TargetControl = this.panel5;
             // 
             // panel1
             // 
@@ -351,10 +351,10 @@ namespace RoomBookingDSII
             this.panel1.Size = new System.Drawing.Size(980, 653);
             this.panel1.TabIndex = 28;
             // 
-            // bunifuElipse1
+            // bunifuElipseFront
             // 
-            this.bunifuElipse1.ElipseRadius = 35;
-            this.bunifuElipse1.TargetControl = this.panel1;
+            this.bunifuElipseFront.ElipseRadius = 35;
+            this.bunifuElipseFront.TargetControl = this.panel1;
             // 
             // pictureBox13
             // 
@@ -586,7 +586,7 @@ namespace RoomBookingDSII
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label Dashboard;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipseBack;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar2;
@@ -611,8 +611,8 @@ namespace RoomBookingDSII
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse3;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipseTop;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipseFront;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.Label label12;
     }
