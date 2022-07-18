@@ -70,7 +70,31 @@ namespace RoomBookingDSII
 
         private void EditBtn_Click(object sender, EventArgs e)
         {
-            
+            if (UnameTb.Text == "" || UphoneTb.Text == "" || UpasswordTb.Text == "")
+            {
+                MessageBox.Show("Falta informacion");
+            }
+            else
+            {
+                try
+                {
+                    Con.Open();
+                    SqlCommand cmd = new SqlCommand("Update UserTbl Set Uname=@UN,Uphone=@UP,Upass=@UPA where UId=@UKey", Con);
+                    cmd.Parameters.AddWithValue("@UN", UnameTb.Text);
+                    cmd.Parameters.AddWithValue("@UP", UphoneTb.Text);
+                    cmd.Parameters.AddWithValue("@UPA", UpasswordTb.Text);
+                    cmd.Parameters.AddWithValue("@UKey", Key);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Usuario editado");
+                    Con.Close();
+                    ShowUsers();
+                }
+                catch (Exception Ex)
+                {
+                    MessageBox.Show(Ex.Message);
+                }
+
+            }
         }
 
 
