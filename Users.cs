@@ -58,6 +58,7 @@ namespace RoomBookingDSII
                     MessageBox.Show("Usuario Guardado");
                     Con.Close();
                     ShowUsers();
+                    Reset();
                 }
                 catch (Exception Ex)
                 {
@@ -88,6 +89,7 @@ namespace RoomBookingDSII
                     MessageBox.Show("Usuario editado");
                     Con.Close();
                     ShowUsers();
+                    Reset();
                 }
                 catch (Exception Ex)
                 {
@@ -98,8 +100,18 @@ namespace RoomBookingDSII
         }
 
 
-        ///DELETE
+        /// RESET///
+        private void Reset()
+        {
+            UnameTb.Text = "";
+            UphoneTb.Text = "";
+            UpasswordTb.Text = "";
+            Key = 0;
 
+        }
+
+
+        ///DELETE///
 
         int Key = 0;
         private void DeleteBtn_Click(object sender, EventArgs e)
@@ -120,6 +132,7 @@ namespace RoomBookingDSII
                     MessageBox.Show("Usuario borrado");
                     Con.Close();
                     ShowUsers();
+                    Reset();
                 }
                 catch (Exception Ex)
                 {
