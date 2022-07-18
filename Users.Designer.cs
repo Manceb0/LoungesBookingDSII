@@ -30,10 +30,10 @@ namespace RoomBookingDSII
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Users));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Users));
             this.Dashboard = new System.Windows.Forms.Label();
             this.bunifuElipseBack = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.label3 = new System.Windows.Forms.Label();
@@ -48,13 +48,16 @@ namespace RoomBookingDSII
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuElipseTop = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.DeleteBtn = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.EditBtn = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.SaveBtn = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.UsersDGV = new Guna.UI2.WinForms.Guna2DataGridView();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.UpasswordTb = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.UphoneTb = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.UnameTb = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.bunifuElipseFront = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -64,14 +67,11 @@ namespace RoomBookingDSII
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.DeleteBtn = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.EditBtn = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.SaveBtn = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UsersDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -211,13 +211,13 @@ namespace RoomBookingDSII
             this.panel1.Controls.Add(this.DeleteBtn);
             this.panel1.Controls.Add(this.EditBtn);
             this.panel1.Controls.Add(this.SaveBtn);
-            this.panel1.Controls.Add(this.guna2DataGridView1);
+            this.panel1.Controls.Add(this.UsersDGV);
             this.panel1.Controls.Add(this.label18);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.UpasswordTb);
             this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.UphoneTb);
             this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.UnameTb);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.pictureBox14);
             this.panel1.Controls.Add(this.panel5);
@@ -226,24 +226,102 @@ namespace RoomBookingDSII
             this.panel1.Size = new System.Drawing.Size(1121, 653);
             this.panel1.TabIndex = 28;
             // 
-            // guna2DataGridView1
+            // DeleteBtn
+            // 
+            this.DeleteBtn.ActiveBorderThickness = 1;
+            this.DeleteBtn.ActiveCornerRadius = 20;
+            this.DeleteBtn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.DeleteBtn.ActiveForecolor = System.Drawing.Color.White;
+            this.DeleteBtn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.DeleteBtn.BackColor = System.Drawing.Color.White;
+            this.DeleteBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DeleteBtn.BackgroundImage")));
+            this.DeleteBtn.ButtonText = "Borrar";
+            this.DeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DeleteBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeleteBtn.ForeColor = System.Drawing.Color.SeaGreen;
+            this.DeleteBtn.IdleBorderThickness = 1;
+            this.DeleteBtn.IdleCornerRadius = 20;
+            this.DeleteBtn.IdleFillColor = System.Drawing.Color.Firebrick;
+            this.DeleteBtn.IdleForecolor = System.Drawing.Color.White;
+            this.DeleteBtn.IdleLineColor = System.Drawing.Color.Firebrick;
+            this.DeleteBtn.Location = new System.Drawing.Point(654, 306);
+            this.DeleteBtn.Margin = new System.Windows.Forms.Padding(5);
+            this.DeleteBtn.Name = "DeleteBtn";
+            this.DeleteBtn.Size = new System.Drawing.Size(128, 41);
+            this.DeleteBtn.TabIndex = 72;
+            this.DeleteBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
+            // 
+            // EditBtn
+            // 
+            this.EditBtn.ActiveBorderThickness = 1;
+            this.EditBtn.ActiveCornerRadius = 20;
+            this.EditBtn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.EditBtn.ActiveForecolor = System.Drawing.Color.White;
+            this.EditBtn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.EditBtn.BackColor = System.Drawing.Color.White;
+            this.EditBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EditBtn.BackgroundImage")));
+            this.EditBtn.ButtonText = "Editar";
+            this.EditBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.EditBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EditBtn.ForeColor = System.Drawing.Color.SeaGreen;
+            this.EditBtn.IdleBorderThickness = 1;
+            this.EditBtn.IdleCornerRadius = 20;
+            this.EditBtn.IdleFillColor = System.Drawing.Color.Firebrick;
+            this.EditBtn.IdleForecolor = System.Drawing.Color.White;
+            this.EditBtn.IdleLineColor = System.Drawing.Color.Firebrick;
+            this.EditBtn.Location = new System.Drawing.Point(498, 306);
+            this.EditBtn.Margin = new System.Windows.Forms.Padding(5);
+            this.EditBtn.Name = "EditBtn";
+            this.EditBtn.Size = new System.Drawing.Size(128, 41);
+            this.EditBtn.TabIndex = 71;
+            this.EditBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.EditBtn.Click += new System.EventHandler(this.EditBtn_Click);
+            // 
+            // SaveBtn
+            // 
+            this.SaveBtn.ActiveBorderThickness = 1;
+            this.SaveBtn.ActiveCornerRadius = 20;
+            this.SaveBtn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.SaveBtn.ActiveForecolor = System.Drawing.Color.White;
+            this.SaveBtn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.SaveBtn.BackColor = System.Drawing.Color.White;
+            this.SaveBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SaveBtn.BackgroundImage")));
+            this.SaveBtn.ButtonText = "Guardar";
+            this.SaveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SaveBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SaveBtn.ForeColor = System.Drawing.Color.SeaGreen;
+            this.SaveBtn.IdleBorderThickness = 1;
+            this.SaveBtn.IdleCornerRadius = 20;
+            this.SaveBtn.IdleFillColor = System.Drawing.Color.Firebrick;
+            this.SaveBtn.IdleForecolor = System.Drawing.Color.White;
+            this.SaveBtn.IdleLineColor = System.Drawing.Color.Firebrick;
+            this.SaveBtn.Location = new System.Drawing.Point(338, 306);
+            this.SaveBtn.Margin = new System.Windows.Forms.Padding(5);
+            this.SaveBtn.Name = "SaveBtn";
+            this.SaveBtn.Size = new System.Drawing.Size(128, 41);
+            this.SaveBtn.TabIndex = 70;
+            this.SaveBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SaveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
+            // 
+            // UsersDGV
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.UsersDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.UsersDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.UsersDGV.BackgroundColor = System.Drawing.Color.White;
+            this.UsersDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.UsersDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.UsersDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Firebrick;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
+            this.UsersDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.UsersDGV.ColumnHeadersHeight = 4;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -251,37 +329,38 @@ namespace RoomBookingDSII
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(101, 355);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(871, 275);
-            this.guna2DataGridView1.TabIndex = 64;
-            this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.UsersDGV.DefaultCellStyle = dataGridViewCellStyle3;
+            this.UsersDGV.EnableHeadersVisualStyles = false;
+            this.UsersDGV.GridColor = System.Drawing.Color.LightPink;
+            this.UsersDGV.Location = new System.Drawing.Point(101, 355);
+            this.UsersDGV.Name = "UsersDGV";
+            this.UsersDGV.RowHeadersVisible = false;
+            this.UsersDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.UsersDGV.Size = new System.Drawing.Size(871, 275);
+            this.UsersDGV.TabIndex = 64;
+            this.UsersDGV.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
+            this.UsersDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.UsersDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.UsersDGV.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.UsersDGV.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.UsersDGV.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.UsersDGV.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.UsersDGV.ThemeStyle.GridColor = System.Drawing.Color.LightPink;
+            this.UsersDGV.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.Firebrick;
+            this.UsersDGV.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.UsersDGV.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.UsersDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.UsersDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.UsersDGV.ThemeStyle.HeaderStyle.Height = 4;
+            this.UsersDGV.ThemeStyle.ReadOnly = false;
+            this.UsersDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.UsersDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.UsersDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.UsersDGV.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.UsersDGV.ThemeStyle.RowsStyle.Height = 22;
+            this.UsersDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.UsersDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.UsersDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.UsersDGV_CellContentClick);
             // 
             // label18
             // 
@@ -293,13 +372,13 @@ namespace RoomBookingDSII
             this.label18.TabIndex = 63;
             this.label18.Text = "Password";
             // 
-            // textBox3
+            // UpasswordTb
             // 
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.textBox3.Location = new System.Drawing.Point(767, 275);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(132, 20);
-            this.textBox3.TabIndex = 62;
+            this.UpasswordTb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.UpasswordTb.Location = new System.Drawing.Point(767, 275);
+            this.UpasswordTb.Name = "UpasswordTb";
+            this.UpasswordTb.Size = new System.Drawing.Size(132, 20);
+            this.UpasswordTb.TabIndex = 62;
             // 
             // label17
             // 
@@ -311,13 +390,13 @@ namespace RoomBookingDSII
             this.label17.TabIndex = 61;
             this.label17.Text = "Phone";
             // 
-            // textBox2
+            // UphoneTb
             // 
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.textBox2.Location = new System.Drawing.Point(502, 275);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(132, 20);
-            this.textBox2.TabIndex = 60;
+            this.UphoneTb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.UphoneTb.Location = new System.Drawing.Point(502, 275);
+            this.UphoneTb.Name = "UphoneTb";
+            this.UphoneTb.Size = new System.Drawing.Size(132, 20);
+            this.UphoneTb.TabIndex = 60;
             // 
             // label16
             // 
@@ -329,13 +408,13 @@ namespace RoomBookingDSII
             this.label16.TabIndex = 59;
             this.label16.Text = "Nombre de usuario";
             // 
-            // textBox1
+            // UnameTb
             // 
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.textBox1.Location = new System.Drawing.Point(258, 275);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 20);
-            this.textBox1.TabIndex = 58;
+            this.UnameTb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.UnameTb.Location = new System.Drawing.Point(258, 275);
+            this.UnameTb.Name = "UnameTb";
+            this.UnameTb.Size = new System.Drawing.Size(132, 20);
+            this.UnameTb.TabIndex = 58;
             // 
             // label12
             // 
@@ -422,82 +501,6 @@ namespace RoomBookingDSII
             this.pictureBox3.TabIndex = 31;
             this.pictureBox3.TabStop = false;
             // 
-            // DeleteBtn
-            // 
-            this.DeleteBtn.ActiveBorderThickness = 1;
-            this.DeleteBtn.ActiveCornerRadius = 20;
-            this.DeleteBtn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.DeleteBtn.ActiveForecolor = System.Drawing.Color.White;
-            this.DeleteBtn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.DeleteBtn.BackColor = System.Drawing.Color.White;
-            this.DeleteBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DeleteBtn.BackgroundImage")));
-            this.DeleteBtn.ButtonText = "Borrar";
-            this.DeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DeleteBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeleteBtn.ForeColor = System.Drawing.Color.SeaGreen;
-            this.DeleteBtn.IdleBorderThickness = 1;
-            this.DeleteBtn.IdleCornerRadius = 20;
-            this.DeleteBtn.IdleFillColor = System.Drawing.Color.Firebrick;
-            this.DeleteBtn.IdleForecolor = System.Drawing.Color.White;
-            this.DeleteBtn.IdleLineColor = System.Drawing.Color.Firebrick;
-            this.DeleteBtn.Location = new System.Drawing.Point(654, 306);
-            this.DeleteBtn.Margin = new System.Windows.Forms.Padding(5);
-            this.DeleteBtn.Name = "DeleteBtn";
-            this.DeleteBtn.Size = new System.Drawing.Size(128, 41);
-            this.DeleteBtn.TabIndex = 72;
-            this.DeleteBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // EditBtn
-            // 
-            this.EditBtn.ActiveBorderThickness = 1;
-            this.EditBtn.ActiveCornerRadius = 20;
-            this.EditBtn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.EditBtn.ActiveForecolor = System.Drawing.Color.White;
-            this.EditBtn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.EditBtn.BackColor = System.Drawing.Color.White;
-            this.EditBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EditBtn.BackgroundImage")));
-            this.EditBtn.ButtonText = "Editar";
-            this.EditBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.EditBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditBtn.ForeColor = System.Drawing.Color.SeaGreen;
-            this.EditBtn.IdleBorderThickness = 1;
-            this.EditBtn.IdleCornerRadius = 20;
-            this.EditBtn.IdleFillColor = System.Drawing.Color.Firebrick;
-            this.EditBtn.IdleForecolor = System.Drawing.Color.White;
-            this.EditBtn.IdleLineColor = System.Drawing.Color.Firebrick;
-            this.EditBtn.Location = new System.Drawing.Point(498, 306);
-            this.EditBtn.Margin = new System.Windows.Forms.Padding(5);
-            this.EditBtn.Name = "EditBtn";
-            this.EditBtn.Size = new System.Drawing.Size(128, 41);
-            this.EditBtn.TabIndex = 71;
-            this.EditBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // SaveBtn
-            // 
-            this.SaveBtn.ActiveBorderThickness = 1;
-            this.SaveBtn.ActiveCornerRadius = 20;
-            this.SaveBtn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.SaveBtn.ActiveForecolor = System.Drawing.Color.White;
-            this.SaveBtn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.SaveBtn.BackColor = System.Drawing.Color.White;
-            this.SaveBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SaveBtn.BackgroundImage")));
-            this.SaveBtn.ButtonText = "Guardar";
-            this.SaveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.SaveBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SaveBtn.ForeColor = System.Drawing.Color.SeaGreen;
-            this.SaveBtn.IdleBorderThickness = 1;
-            this.SaveBtn.IdleCornerRadius = 20;
-            this.SaveBtn.IdleFillColor = System.Drawing.Color.Firebrick;
-            this.SaveBtn.IdleForecolor = System.Drawing.Color.White;
-            this.SaveBtn.IdleLineColor = System.Drawing.Color.Firebrick;
-            this.SaveBtn.Location = new System.Drawing.Point(338, 306);
-            this.SaveBtn.Margin = new System.Windows.Forms.Padding(5);
-            this.SaveBtn.Name = "SaveBtn";
-            this.SaveBtn.Size = new System.Drawing.Size(128, 41);
-            this.SaveBtn.TabIndex = 70;
-            this.SaveBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.SaveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
-            // 
             // Users
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -526,7 +529,7 @@ namespace RoomBookingDSII
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UsersDGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -564,12 +567,12 @@ namespace RoomBookingDSII
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox UpasswordTb;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox UphoneTb;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private System.Windows.Forms.TextBox UnameTb;
+        private Guna.UI2.WinForms.Guna2DataGridView UsersDGV;
         private Bunifu.Framework.UI.BunifuThinButton2 DeleteBtn;
         private Bunifu.Framework.UI.BunifuThinButton2 EditBtn;
         private Bunifu.Framework.UI.BunifuThinButton2 SaveBtn;
