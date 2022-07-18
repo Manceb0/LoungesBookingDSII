@@ -59,6 +59,7 @@ namespace RoomBookingDSII
                     Con.Close();
                     ShowUsers();
                     Reset();
+        
                 }
                 catch (Exception Ex)
                 {
@@ -109,7 +110,7 @@ namespace RoomBookingDSII
             Key = 0;
 
         }
-
+        
 
         ///DELETE///
 
@@ -133,6 +134,7 @@ namespace RoomBookingDSII
                     Con.Close();
                     ShowUsers();
                     Reset();
+                    
                 }
                 catch (Exception Ex)
                 {

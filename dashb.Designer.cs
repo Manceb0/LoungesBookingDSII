@@ -40,45 +40,45 @@ namespace RoomBookingDSII
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.guna2Panel33 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R20 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel34 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R19 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel18 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel35 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel36 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R9 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel37 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R15 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel38 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel19 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R14 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel20 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel39 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel40 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel21 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R17 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel22 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R7 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel23 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R18 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel24 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R8 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel25 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R12 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel26 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel27 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R16 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel28 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel29 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R13 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel30 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel31 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R11 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel32 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.R1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -92,17 +92,17 @@ namespace RoomBookingDSII
             this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.guna2ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
-            this.guna2ProgressBar2 = new Guna.UI2.WinForms.Guna2ProgressBar();
+            this.AVLbl = new System.Windows.Forms.Label();
+            this.BLbl = new System.Windows.Forms.Label();
+            this.AVProgress = new Guna.UI2.WinForms.Guna2ProgressBar();
+            this.BProgress = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.CustNumLbl = new System.Windows.Forms.Label();
+            this.BookedLbl = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
@@ -117,26 +117,26 @@ namespace RoomBookingDSII
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.guna2Panel33.SuspendLayout();
-            this.guna2Panel17.SuspendLayout();
-            this.guna2Panel35.SuspendLayout();
-            this.guna2Panel9.SuspendLayout();
-            this.guna2Panel37.SuspendLayout();
-            this.guna2Panel19.SuspendLayout();
-            this.guna2Panel39.SuspendLayout();
-            this.guna2Panel5.SuspendLayout();
-            this.guna2Panel21.SuspendLayout();
-            this.guna2Panel11.SuspendLayout();
-            this.guna2Panel23.SuspendLayout();
-            this.guna2Panel13.SuspendLayout();
-            this.guna2Panel25.SuspendLayout();
-            this.guna2Panel3.SuspendLayout();
-            this.guna2Panel27.SuspendLayout();
-            this.guna2Panel15.SuspendLayout();
-            this.guna2Panel29.SuspendLayout();
-            this.guna2Panel31.SuspendLayout();
-            this.guna2Panel7.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
+            this.R20.SuspendLayout();
+            this.R19.SuspendLayout();
+            this.R10.SuspendLayout();
+            this.R9.SuspendLayout();
+            this.R15.SuspendLayout();
+            this.R14.SuspendLayout();
+            this.R5.SuspendLayout();
+            this.R4.SuspendLayout();
+            this.R17.SuspendLayout();
+            this.R7.SuspendLayout();
+            this.R18.SuspendLayout();
+            this.R8.SuspendLayout();
+            this.R12.SuspendLayout();
+            this.R2.SuspendLayout();
+            this.R16.SuspendLayout();
+            this.R6.SuspendLayout();
+            this.R13.SuspendLayout();
+            this.R11.SuspendLayout();
+            this.R3.SuspendLayout();
+            this.R1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.guna2CircleProgressBar1.SuspendLayout();
@@ -161,30 +161,31 @@ namespace RoomBookingDSII
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.guna2Panel33);
-            this.panel1.Controls.Add(this.guna2Panel17);
-            this.panel1.Controls.Add(this.guna2Panel35);
-            this.panel1.Controls.Add(this.guna2Panel9);
-            this.panel1.Controls.Add(this.guna2Panel37);
-            this.panel1.Controls.Add(this.guna2Panel19);
-            this.panel1.Controls.Add(this.guna2Panel39);
-            this.panel1.Controls.Add(this.guna2Panel5);
-            this.panel1.Controls.Add(this.guna2Panel21);
-            this.panel1.Controls.Add(this.guna2Panel11);
-            this.panel1.Controls.Add(this.guna2Panel23);
-            this.panel1.Controls.Add(this.guna2Panel13);
-            this.panel1.Controls.Add(this.guna2Panel25);
-            this.panel1.Controls.Add(this.guna2Panel3);
-            this.panel1.Controls.Add(this.guna2Panel27);
-            this.panel1.Controls.Add(this.guna2Panel15);
-            this.panel1.Controls.Add(this.guna2Panel29);
-            this.panel1.Controls.Add(this.guna2Panel31);
-            this.panel1.Controls.Add(this.guna2Panel7);
-            this.panel1.Controls.Add(this.guna2Panel1);
+            this.panel1.Controls.Add(this.R20);
+            this.panel1.Controls.Add(this.R19);
+            this.panel1.Controls.Add(this.R10);
+            this.panel1.Controls.Add(this.R9);
+            this.panel1.Controls.Add(this.R15);
+            this.panel1.Controls.Add(this.R14);
+            this.panel1.Controls.Add(this.R5);
+            this.panel1.Controls.Add(this.R4);
+            this.panel1.Controls.Add(this.R17);
+            this.panel1.Controls.Add(this.R7);
+            this.panel1.Controls.Add(this.R18);
+            this.panel1.Controls.Add(this.R8);
+            this.panel1.Controls.Add(this.R12);
+            this.panel1.Controls.Add(this.R2);
+            this.panel1.Controls.Add(this.R16);
+            this.panel1.Controls.Add(this.R6);
+            this.panel1.Controls.Add(this.R13);
+            this.panel1.Controls.Add(this.R11);
+            this.panel1.Controls.Add(this.R3);
+            this.panel1.Controls.Add(this.R1);
             this.panel1.Location = new System.Drawing.Point(167, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(980, 653);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel5
             // 
@@ -288,17 +289,17 @@ namespace RoomBookingDSII
             this.label12.TabIndex = 27;
             this.label12.Text = "Rooms plan";
             // 
-            // guna2Panel33
+            // R20
             // 
-            this.guna2Panel33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel33.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel33.BorderRadius = 25;
-            this.guna2Panel33.Controls.Add(this.guna2Panel34);
-            this.guna2Panel33.Location = new System.Drawing.Point(663, 464);
-            this.guna2Panel33.Name = "guna2Panel33";
-            this.guna2Panel33.ShadowDecoration.Parent = this.guna2Panel33;
-            this.guna2Panel33.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel33.TabIndex = 19;
+            this.R20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R20.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R20.BorderRadius = 25;
+            this.R20.Controls.Add(this.guna2Panel34);
+            this.R20.Location = new System.Drawing.Point(663, 464);
+            this.R20.Name = "R20";
+            this.R20.ShadowDecoration.Parent = this.R20;
+            this.R20.Size = new System.Drawing.Size(128, 65);
+            this.R20.TabIndex = 19;
             // 
             // guna2Panel34
             // 
@@ -310,17 +311,17 @@ namespace RoomBookingDSII
             this.guna2Panel34.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel34.TabIndex = 0;
             // 
-            // guna2Panel17
+            // R19
             // 
-            this.guna2Panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel17.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel17.BorderRadius = 25;
-            this.guna2Panel17.Controls.Add(this.guna2Panel18);
-            this.guna2Panel17.Location = new System.Drawing.Point(529, 464);
-            this.guna2Panel17.Name = "guna2Panel17";
-            this.guna2Panel17.ShadowDecoration.Parent = this.guna2Panel17;
-            this.guna2Panel17.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel17.TabIndex = 15;
+            this.R19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R19.BorderRadius = 25;
+            this.R19.Controls.Add(this.guna2Panel18);
+            this.R19.Location = new System.Drawing.Point(529, 464);
+            this.R19.Name = "R19";
+            this.R19.ShadowDecoration.Parent = this.R19;
+            this.R19.Size = new System.Drawing.Size(128, 65);
+            this.R19.TabIndex = 15;
             // 
             // guna2Panel18
             // 
@@ -332,17 +333,17 @@ namespace RoomBookingDSII
             this.guna2Panel18.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel18.TabIndex = 0;
             // 
-            // guna2Panel35
+            // R10
             // 
-            this.guna2Panel35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel35.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel35.BorderRadius = 25;
-            this.guna2Panel35.Controls.Add(this.guna2Panel36);
-            this.guna2Panel35.Location = new System.Drawing.Point(663, 322);
-            this.guna2Panel35.Name = "guna2Panel35";
-            this.guna2Panel35.ShadowDecoration.Parent = this.guna2Panel35;
-            this.guna2Panel35.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel35.TabIndex = 17;
+            this.R10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R10.BorderRadius = 25;
+            this.R10.Controls.Add(this.guna2Panel36);
+            this.R10.Location = new System.Drawing.Point(663, 322);
+            this.R10.Name = "R10";
+            this.R10.ShadowDecoration.Parent = this.R10;
+            this.R10.Size = new System.Drawing.Size(128, 65);
+            this.R10.TabIndex = 17;
             // 
             // guna2Panel36
             // 
@@ -354,17 +355,17 @@ namespace RoomBookingDSII
             this.guna2Panel36.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel36.TabIndex = 0;
             // 
-            // guna2Panel9
+            // R9
             // 
-            this.guna2Panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel9.BorderRadius = 25;
-            this.guna2Panel9.Controls.Add(this.guna2Panel10);
-            this.guna2Panel9.Location = new System.Drawing.Point(529, 322);
-            this.guna2Panel9.Name = "guna2Panel9";
-            this.guna2Panel9.ShadowDecoration.Parent = this.guna2Panel9;
-            this.guna2Panel9.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel9.TabIndex = 7;
+            this.R9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R9.BorderRadius = 25;
+            this.R9.Controls.Add(this.guna2Panel10);
+            this.R9.Location = new System.Drawing.Point(529, 322);
+            this.R9.Name = "R9";
+            this.R9.ShadowDecoration.Parent = this.R9;
+            this.R9.Size = new System.Drawing.Size(128, 65);
+            this.R9.TabIndex = 7;
             // 
             // guna2Panel10
             // 
@@ -376,17 +377,17 @@ namespace RoomBookingDSII
             this.guna2Panel10.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel10.TabIndex = 0;
             // 
-            // guna2Panel37
+            // R15
             // 
-            this.guna2Panel37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel37.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel37.BorderRadius = 25;
-            this.guna2Panel37.Controls.Add(this.guna2Panel38);
-            this.guna2Panel37.Location = new System.Drawing.Point(663, 393);
-            this.guna2Panel37.Name = "guna2Panel37";
-            this.guna2Panel37.ShadowDecoration.Parent = this.guna2Panel37;
-            this.guna2Panel37.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel37.TabIndex = 18;
+            this.R15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R15.BorderRadius = 25;
+            this.R15.Controls.Add(this.guna2Panel38);
+            this.R15.Location = new System.Drawing.Point(663, 393);
+            this.R15.Name = "R15";
+            this.R15.ShadowDecoration.Parent = this.R15;
+            this.R15.Size = new System.Drawing.Size(128, 65);
+            this.R15.TabIndex = 18;
             // 
             // guna2Panel38
             // 
@@ -398,17 +399,17 @@ namespace RoomBookingDSII
             this.guna2Panel38.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel38.TabIndex = 0;
             // 
-            // guna2Panel19
+            // R14
             // 
-            this.guna2Panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel19.BorderRadius = 25;
-            this.guna2Panel19.Controls.Add(this.guna2Panel20);
-            this.guna2Panel19.Location = new System.Drawing.Point(529, 393);
-            this.guna2Panel19.Name = "guna2Panel19";
-            this.guna2Panel19.ShadowDecoration.Parent = this.guna2Panel19;
-            this.guna2Panel19.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel19.TabIndex = 11;
+            this.R14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R14.BorderRadius = 25;
+            this.R14.Controls.Add(this.guna2Panel20);
+            this.R14.Location = new System.Drawing.Point(529, 393);
+            this.R14.Name = "R14";
+            this.R14.ShadowDecoration.Parent = this.R14;
+            this.R14.Size = new System.Drawing.Size(128, 65);
+            this.R14.TabIndex = 11;
             // 
             // guna2Panel20
             // 
@@ -420,17 +421,17 @@ namespace RoomBookingDSII
             this.guna2Panel20.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel20.TabIndex = 0;
             // 
-            // guna2Panel39
+            // R5
             // 
-            this.guna2Panel39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel39.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel39.BorderRadius = 25;
-            this.guna2Panel39.Controls.Add(this.guna2Panel40);
-            this.guna2Panel39.Location = new System.Drawing.Point(663, 251);
-            this.guna2Panel39.Name = "guna2Panel39";
-            this.guna2Panel39.ShadowDecoration.Parent = this.guna2Panel39;
-            this.guna2Panel39.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel39.TabIndex = 16;
+            this.R5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R5.BorderRadius = 25;
+            this.R5.Controls.Add(this.guna2Panel40);
+            this.R5.Location = new System.Drawing.Point(663, 251);
+            this.R5.Name = "R5";
+            this.R5.ShadowDecoration.Parent = this.R5;
+            this.R5.Size = new System.Drawing.Size(128, 65);
+            this.R5.TabIndex = 16;
             // 
             // guna2Panel40
             // 
@@ -442,17 +443,17 @@ namespace RoomBookingDSII
             this.guna2Panel40.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel40.TabIndex = 0;
             // 
-            // guna2Panel5
+            // R4
             // 
-            this.guna2Panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel5.BorderRadius = 25;
-            this.guna2Panel5.Controls.Add(this.guna2Panel6);
-            this.guna2Panel5.Location = new System.Drawing.Point(529, 251);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.ShadowDecoration.Parent = this.guna2Panel5;
-            this.guna2Panel5.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel5.TabIndex = 3;
+            this.R4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R4.BorderRadius = 25;
+            this.R4.Controls.Add(this.guna2Panel6);
+            this.R4.Location = new System.Drawing.Point(529, 251);
+            this.R4.Name = "R4";
+            this.R4.ShadowDecoration.Parent = this.R4;
+            this.R4.Size = new System.Drawing.Size(128, 65);
+            this.R4.TabIndex = 3;
             // 
             // guna2Panel6
             // 
@@ -464,16 +465,16 @@ namespace RoomBookingDSII
             this.guna2Panel6.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel6.TabIndex = 0;
             // 
-            // guna2Panel21
+            // R17
             // 
-            this.guna2Panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel21.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel21.Controls.Add(this.guna2Panel22);
-            this.guna2Panel21.Location = new System.Drawing.Point(261, 464);
-            this.guna2Panel21.Name = "guna2Panel21";
-            this.guna2Panel21.ShadowDecoration.Parent = this.guna2Panel21;
-            this.guna2Panel21.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel21.TabIndex = 13;
+            this.R17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R17.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R17.Controls.Add(this.guna2Panel22);
+            this.R17.Location = new System.Drawing.Point(261, 464);
+            this.R17.Name = "R17";
+            this.R17.ShadowDecoration.Parent = this.R17;
+            this.R17.Size = new System.Drawing.Size(128, 65);
+            this.R17.TabIndex = 13;
             // 
             // guna2Panel22
             // 
@@ -485,16 +486,16 @@ namespace RoomBookingDSII
             this.guna2Panel22.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel22.TabIndex = 0;
             // 
-            // guna2Panel11
+            // R7
             // 
-            this.guna2Panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel11.Controls.Add(this.guna2Panel12);
-            this.guna2Panel11.Location = new System.Drawing.Point(261, 322);
-            this.guna2Panel11.Name = "guna2Panel11";
-            this.guna2Panel11.ShadowDecoration.Parent = this.guna2Panel11;
-            this.guna2Panel11.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel11.TabIndex = 5;
+            this.R7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R7.Controls.Add(this.guna2Panel12);
+            this.R7.Location = new System.Drawing.Point(261, 322);
+            this.R7.Name = "R7";
+            this.R7.ShadowDecoration.Parent = this.R7;
+            this.R7.Size = new System.Drawing.Size(128, 65);
+            this.R7.TabIndex = 5;
             // 
             // guna2Panel12
             // 
@@ -506,16 +507,16 @@ namespace RoomBookingDSII
             this.guna2Panel12.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel12.TabIndex = 0;
             // 
-            // guna2Panel23
+            // R18
             // 
-            this.guna2Panel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel23.Controls.Add(this.guna2Panel24);
-            this.guna2Panel23.Location = new System.Drawing.Point(395, 464);
-            this.guna2Panel23.Name = "guna2Panel23";
-            this.guna2Panel23.ShadowDecoration.Parent = this.guna2Panel23;
-            this.guna2Panel23.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel23.TabIndex = 14;
+            this.R18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R18.Controls.Add(this.guna2Panel24);
+            this.R18.Location = new System.Drawing.Point(395, 464);
+            this.R18.Name = "R18";
+            this.R18.ShadowDecoration.Parent = this.R18;
+            this.R18.Size = new System.Drawing.Size(128, 65);
+            this.R18.TabIndex = 14;
             // 
             // guna2Panel24
             // 
@@ -527,16 +528,16 @@ namespace RoomBookingDSII
             this.guna2Panel24.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel24.TabIndex = 0;
             // 
-            // guna2Panel13
+            // R8
             // 
-            this.guna2Panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel13.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel13.Controls.Add(this.guna2Panel14);
-            this.guna2Panel13.Location = new System.Drawing.Point(395, 322);
-            this.guna2Panel13.Name = "guna2Panel13";
-            this.guna2Panel13.ShadowDecoration.Parent = this.guna2Panel13;
-            this.guna2Panel13.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel13.TabIndex = 6;
+            this.R8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R8.Controls.Add(this.guna2Panel14);
+            this.R8.Location = new System.Drawing.Point(395, 322);
+            this.R8.Name = "R8";
+            this.R8.ShadowDecoration.Parent = this.R8;
+            this.R8.Size = new System.Drawing.Size(128, 65);
+            this.R8.TabIndex = 6;
             // 
             // guna2Panel14
             // 
@@ -548,16 +549,16 @@ namespace RoomBookingDSII
             this.guna2Panel14.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel14.TabIndex = 0;
             // 
-            // guna2Panel25
+            // R12
             // 
-            this.guna2Panel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel25.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel25.Controls.Add(this.guna2Panel26);
-            this.guna2Panel25.Location = new System.Drawing.Point(261, 393);
-            this.guna2Panel25.Name = "guna2Panel25";
-            this.guna2Panel25.ShadowDecoration.Parent = this.guna2Panel25;
-            this.guna2Panel25.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel25.TabIndex = 9;
+            this.R12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R12.Controls.Add(this.guna2Panel26);
+            this.R12.Location = new System.Drawing.Point(261, 393);
+            this.R12.Name = "R12";
+            this.R12.ShadowDecoration.Parent = this.R12;
+            this.R12.Size = new System.Drawing.Size(128, 65);
+            this.R12.TabIndex = 9;
             // 
             // guna2Panel26
             // 
@@ -569,16 +570,16 @@ namespace RoomBookingDSII
             this.guna2Panel26.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel26.TabIndex = 0;
             // 
-            // guna2Panel3
+            // R2
             // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel3.Controls.Add(this.guna2Panel4);
-            this.guna2Panel3.Location = new System.Drawing.Point(261, 251);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel3.TabIndex = 1;
+            this.R2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R2.Controls.Add(this.guna2Panel4);
+            this.R2.Location = new System.Drawing.Point(261, 251);
+            this.R2.Name = "R2";
+            this.R2.ShadowDecoration.Parent = this.R2;
+            this.R2.Size = new System.Drawing.Size(128, 65);
+            this.R2.TabIndex = 1;
             // 
             // guna2Panel4
             // 
@@ -590,16 +591,16 @@ namespace RoomBookingDSII
             this.guna2Panel4.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel4.TabIndex = 0;
             // 
-            // guna2Panel27
+            // R16
             // 
-            this.guna2Panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel27.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel27.Controls.Add(this.guna2Panel28);
-            this.guna2Panel27.Location = new System.Drawing.Point(127, 464);
-            this.guna2Panel27.Name = "guna2Panel27";
-            this.guna2Panel27.ShadowDecoration.Parent = this.guna2Panel27;
-            this.guna2Panel27.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel27.TabIndex = 12;
+            this.R16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R16.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R16.Controls.Add(this.guna2Panel28);
+            this.R16.Location = new System.Drawing.Point(127, 464);
+            this.R16.Name = "R16";
+            this.R16.ShadowDecoration.Parent = this.R16;
+            this.R16.Size = new System.Drawing.Size(128, 65);
+            this.R16.TabIndex = 12;
             // 
             // guna2Panel28
             // 
@@ -611,16 +612,16 @@ namespace RoomBookingDSII
             this.guna2Panel28.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel28.TabIndex = 0;
             // 
-            // guna2Panel15
+            // R6
             // 
-            this.guna2Panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel15.Controls.Add(this.guna2Panel16);
-            this.guna2Panel15.Location = new System.Drawing.Point(127, 322);
-            this.guna2Panel15.Name = "guna2Panel15";
-            this.guna2Panel15.ShadowDecoration.Parent = this.guna2Panel15;
-            this.guna2Panel15.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel15.TabIndex = 4;
+            this.R6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R6.Controls.Add(this.guna2Panel16);
+            this.R6.Location = new System.Drawing.Point(127, 322);
+            this.R6.Name = "R6";
+            this.R6.ShadowDecoration.Parent = this.R6;
+            this.R6.Size = new System.Drawing.Size(128, 65);
+            this.R6.TabIndex = 4;
             // 
             // guna2Panel16
             // 
@@ -632,16 +633,16 @@ namespace RoomBookingDSII
             this.guna2Panel16.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel16.TabIndex = 0;
             // 
-            // guna2Panel29
+            // R13
             // 
-            this.guna2Panel29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel29.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel29.Controls.Add(this.guna2Panel30);
-            this.guna2Panel29.Location = new System.Drawing.Point(395, 393);
-            this.guna2Panel29.Name = "guna2Panel29";
-            this.guna2Panel29.ShadowDecoration.Parent = this.guna2Panel29;
-            this.guna2Panel29.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel29.TabIndex = 10;
+            this.R13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R13.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R13.Controls.Add(this.guna2Panel30);
+            this.R13.Location = new System.Drawing.Point(395, 393);
+            this.R13.Name = "R13";
+            this.R13.ShadowDecoration.Parent = this.R13;
+            this.R13.Size = new System.Drawing.Size(128, 65);
+            this.R13.TabIndex = 10;
             // 
             // guna2Panel30
             // 
@@ -653,16 +654,16 @@ namespace RoomBookingDSII
             this.guna2Panel30.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel30.TabIndex = 0;
             // 
-            // guna2Panel31
+            // R11
             // 
-            this.guna2Panel31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel31.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel31.Controls.Add(this.guna2Panel32);
-            this.guna2Panel31.Location = new System.Drawing.Point(127, 393);
-            this.guna2Panel31.Name = "guna2Panel31";
-            this.guna2Panel31.ShadowDecoration.Parent = this.guna2Panel31;
-            this.guna2Panel31.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel31.TabIndex = 8;
+            this.R11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R11.Controls.Add(this.guna2Panel32);
+            this.R11.Location = new System.Drawing.Point(127, 393);
+            this.R11.Name = "R11";
+            this.R11.ShadowDecoration.Parent = this.R11;
+            this.R11.Size = new System.Drawing.Size(128, 65);
+            this.R11.TabIndex = 8;
             // 
             // guna2Panel32
             // 
@@ -674,17 +675,17 @@ namespace RoomBookingDSII
             this.guna2Panel32.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel32.TabIndex = 0;
             // 
-            // guna2Panel7
+            // R3
             // 
-            this.guna2Panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
-            this.guna2Panel7.BorderRadius = 25;
-            this.guna2Panel7.Controls.Add(this.guna2Panel8);
-            this.guna2Panel7.Location = new System.Drawing.Point(395, 251);
-            this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.ShadowDecoration.Parent = this.guna2Panel7;
-            this.guna2Panel7.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel7.TabIndex = 2;
+            this.R3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
+            this.R3.BorderRadius = 25;
+            this.R3.Controls.Add(this.guna2Panel8);
+            this.R3.Location = new System.Drawing.Point(395, 251);
+            this.R3.Name = "R3";
+            this.R3.ShadowDecoration.Parent = this.R3;
+            this.R3.Size = new System.Drawing.Size(128, 65);
+            this.R3.TabIndex = 2;
             // 
             // guna2Panel8
             // 
@@ -696,16 +697,16 @@ namespace RoomBookingDSII
             this.guna2Panel8.Size = new System.Drawing.Size(5, 65);
             this.guna2Panel8.TabIndex = 0;
             // 
-            // guna2Panel1
+            // R1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2Panel1.Controls.Add(this.guna2Panel2);
-            this.guna2Panel1.Location = new System.Drawing.Point(127, 251);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(128, 65);
-            this.guna2Panel1.TabIndex = 0;
+            this.R1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.R1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.R1.Controls.Add(this.guna2Panel2);
+            this.R1.Location = new System.Drawing.Point(127, 251);
+            this.R1.Name = "R1";
+            this.R1.ShadowDecoration.Parent = this.R1;
+            this.R1.Size = new System.Drawing.Size(128, 65);
+            this.R1.TabIndex = 0;
             // 
             // guna2Panel2
             // 
@@ -813,7 +814,7 @@ namespace RoomBookingDSII
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(51, 86);
+            this.label5.Location = new System.Drawing.Point(52, 86);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 22);
             this.label5.TabIndex = 15;
@@ -829,47 +830,49 @@ namespace RoomBookingDSII
             this.label4.TabIndex = 14;
             this.label4.Text = "20";
             // 
-            // label6
+            // AVLbl
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(1179, 320);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 22);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Disponibles";
+            this.AVLbl.AutoSize = true;
+            this.AVLbl.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AVLbl.Location = new System.Drawing.Point(1179, 320);
+            this.AVLbl.Name = "AVLbl";
+            this.AVLbl.Size = new System.Drawing.Size(104, 22);
+            this.AVLbl.TabIndex = 16;
+            this.AVLbl.Text = "Disponibles";
             // 
-            // label7
+            // BLbl
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(1180, 349);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(103, 22);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Reservados";
+            this.BLbl.AutoSize = true;
+            this.BLbl.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BLbl.Location = new System.Drawing.Point(1180, 349);
+            this.BLbl.Name = "BLbl";
+            this.BLbl.Size = new System.Drawing.Size(103, 22);
+            this.BLbl.TabIndex = 17;
+            this.BLbl.Text = "Reservados";
             // 
-            // guna2ProgressBar1
+            // AVProgress
             // 
-            this.guna2ProgressBar1.BorderRadius = 4;
-            this.guna2ProgressBar1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2ProgressBar1.Location = new System.Drawing.Point(1200, 428);
-            this.guna2ProgressBar1.Name = "guna2ProgressBar1";
-            this.guna2ProgressBar1.ShadowDecoration.Parent = this.guna2ProgressBar1;
-            this.guna2ProgressBar1.Size = new System.Drawing.Size(137, 10);
-            this.guna2ProgressBar1.TabIndex = 18;
-            this.guna2ProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.AVProgress.BorderRadius = 4;
+            this.AVProgress.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.AVProgress.Location = new System.Drawing.Point(1200, 428);
+            this.AVProgress.Maximum = 20;
+            this.AVProgress.Name = "AVProgress";
+            this.AVProgress.ShadowDecoration.Parent = this.AVProgress;
+            this.AVProgress.Size = new System.Drawing.Size(137, 10);
+            this.AVProgress.TabIndex = 18;
+            this.AVProgress.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             // 
-            // guna2ProgressBar2
+            // BProgress
             // 
-            this.guna2ProgressBar2.BorderRadius = 4;
-            this.guna2ProgressBar2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2ProgressBar2.Location = new System.Drawing.Point(1201, 464);
-            this.guna2ProgressBar2.Name = "guna2ProgressBar2";
-            this.guna2ProgressBar2.ShadowDecoration.Parent = this.guna2ProgressBar2;
-            this.guna2ProgressBar2.Size = new System.Drawing.Size(136, 10);
-            this.guna2ProgressBar2.TabIndex = 19;
-            this.guna2ProgressBar2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.BProgress.BorderRadius = 4;
+            this.BProgress.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.BProgress.Location = new System.Drawing.Point(1201, 464);
+            this.BProgress.Maximum = 20;
+            this.BProgress.Name = "BProgress";
+            this.BProgress.ShadowDecoration.Parent = this.BProgress;
+            this.BProgress.Size = new System.Drawing.Size(136, 10);
+            this.BProgress.TabIndex = 19;
+            this.BProgress.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             // 
             // panel3
             // 
@@ -919,25 +922,25 @@ namespace RoomBookingDSII
             this.label8.TabIndex = 16;
             this.label8.Text = "Clientes";
             // 
-            // label9
+            // CustNumLbl
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(1205, 548);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(42, 18);
-            this.label9.TabIndex = 23;
-            this.label9.Text = "Num";
+            this.CustNumLbl.AutoSize = true;
+            this.CustNumLbl.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustNumLbl.Location = new System.Drawing.Point(1205, 548);
+            this.CustNumLbl.Name = "CustNumLbl";
+            this.CustNumLbl.Size = new System.Drawing.Size(42, 18);
+            this.CustNumLbl.TabIndex = 23;
+            this.CustNumLbl.Text = "Num";
             // 
-            // label10
+            // BookedLbl
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(1205, 614);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(42, 18);
-            this.label10.TabIndex = 26;
-            this.label10.Text = "Num";
+            this.BookedLbl.AutoSize = true;
+            this.BookedLbl.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BookedLbl.Location = new System.Drawing.Point(1205, 614);
+            this.BookedLbl.Name = "BookedLbl";
+            this.BookedLbl.Size = new System.Drawing.Size(42, 18);
+            this.BookedLbl.TabIndex = 26;
+            this.BookedLbl.Text = "Num";
             // 
             // label11
             // 
@@ -1060,18 +1063,18 @@ namespace RoomBookingDSII
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1353, 702);
             this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.BookedLbl);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.CustNumLbl);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.guna2ProgressBar2);
-            this.Controls.Add(this.guna2ProgressBar1);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.BProgress);
+            this.Controls.Add(this.AVProgress);
+            this.Controls.Add(this.BLbl);
+            this.Controls.Add(this.AVLbl);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.guna2CircleProgressBar1);
@@ -1093,26 +1096,26 @@ namespace RoomBookingDSII
             this.panel1.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.guna2Panel33.ResumeLayout(false);
-            this.guna2Panel17.ResumeLayout(false);
-            this.guna2Panel35.ResumeLayout(false);
-            this.guna2Panel9.ResumeLayout(false);
-            this.guna2Panel37.ResumeLayout(false);
-            this.guna2Panel19.ResumeLayout(false);
-            this.guna2Panel39.ResumeLayout(false);
-            this.guna2Panel5.ResumeLayout(false);
-            this.guna2Panel21.ResumeLayout(false);
-            this.guna2Panel11.ResumeLayout(false);
-            this.guna2Panel23.ResumeLayout(false);
-            this.guna2Panel13.ResumeLayout(false);
-            this.guna2Panel25.ResumeLayout(false);
-            this.guna2Panel3.ResumeLayout(false);
-            this.guna2Panel27.ResumeLayout(false);
-            this.guna2Panel15.ResumeLayout(false);
-            this.guna2Panel29.ResumeLayout(false);
-            this.guna2Panel31.ResumeLayout(false);
-            this.guna2Panel7.ResumeLayout(false);
-            this.guna2Panel1.ResumeLayout(false);
+            this.R20.ResumeLayout(false);
+            this.R19.ResumeLayout(false);
+            this.R10.ResumeLayout(false);
+            this.R9.ResumeLayout(false);
+            this.R15.ResumeLayout(false);
+            this.R14.ResumeLayout(false);
+            this.R5.ResumeLayout(false);
+            this.R4.ResumeLayout(false);
+            this.R17.ResumeLayout(false);
+            this.R7.ResumeLayout(false);
+            this.R18.ResumeLayout(false);
+            this.R8.ResumeLayout(false);
+            this.R12.ResumeLayout(false);
+            this.R2.ResumeLayout(false);
+            this.R16.ResumeLayout(false);
+            this.R6.ResumeLayout(false);
+            this.R13.ResumeLayout(false);
+            this.R11.ResumeLayout(false);
+            this.R3.ResumeLayout(false);
+            this.R1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -1159,22 +1162,22 @@ namespace RoomBookingDSII
         private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel R1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label BookedLbl;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label CustNumLbl;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar2;
-        private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
+        private Guna.UI2.WinForms.Guna2ProgressBar BProgress;
+        private Guna.UI2.WinForms.Guna2ProgressBar AVProgress;
+        private System.Windows.Forms.Label BLbl;
+        private System.Windows.Forms.Label AVLbl;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
@@ -1184,43 +1187,43 @@ namespace RoomBookingDSII
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel33;
+        private Guna.UI2.WinForms.Guna2Panel R20;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel34;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel17;
+        private Guna.UI2.WinForms.Guna2Panel R19;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel18;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel35;
+        private Guna.UI2.WinForms.Guna2Panel R10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel36;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
+        private Guna.UI2.WinForms.Guna2Panel R9;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel37;
+        private Guna.UI2.WinForms.Guna2Panel R15;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel38;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel19;
+        private Guna.UI2.WinForms.Guna2Panel R14;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel20;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel39;
+        private Guna.UI2.WinForms.Guna2Panel R5;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel40;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
+        private Guna.UI2.WinForms.Guna2Panel R4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel21;
+        private Guna.UI2.WinForms.Guna2Panel R17;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel22;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
+        private Guna.UI2.WinForms.Guna2Panel R7;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel23;
+        private Guna.UI2.WinForms.Guna2Panel R18;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel24;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
+        private Guna.UI2.WinForms.Guna2Panel R8;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel14;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel25;
+        private Guna.UI2.WinForms.Guna2Panel R12;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel26;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Panel R2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel27;
+        private Guna.UI2.WinForms.Guna2Panel R16;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel28;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel15;
+        private Guna.UI2.WinForms.Guna2Panel R6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel16;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel29;
+        private Guna.UI2.WinForms.Guna2Panel R13;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel30;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel31;
+        private Guna.UI2.WinForms.Guna2Panel R11;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel32;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
+        private Guna.UI2.WinForms.Guna2Panel R3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
         private System.Windows.Forms.PictureBox pictureBox13;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse3;

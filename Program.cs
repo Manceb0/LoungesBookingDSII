@@ -16,7 +16,7 @@ namespace RoomBookingDSII
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Users());
+            Application.Run(new dashb());
         }
     }
 }

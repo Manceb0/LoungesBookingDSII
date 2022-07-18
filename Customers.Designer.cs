@@ -42,13 +42,13 @@ namespace RoomBookingDSII
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.CusPhoneTb = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.CusNameTb = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.bunifuElipseFront = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CusGenCb = new System.Windows.Forms.ComboBox();
             this.CusDOB = new Bunifu.Framework.UI.BunifuDatepicker();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -161,14 +161,14 @@ namespace RoomBookingDSII
             this.label17.TabIndex = 61;
             this.label17.Text = "Phone";
             // 
-            // textBox2
+            // CusPhoneTb
             // 
-            this.textBox2.Font = new System.Drawing.Font("Montserrat", 8.999999F);
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.textBox2.Location = new System.Drawing.Point(376, 289);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 22);
-            this.textBox2.TabIndex = 60;
+            this.CusPhoneTb.Font = new System.Drawing.Font("Montserrat", 8.999999F);
+            this.CusPhoneTb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.CusPhoneTb.Location = new System.Drawing.Point(376, 289);
+            this.CusPhoneTb.Name = "CusPhoneTb";
+            this.CusPhoneTb.Size = new System.Drawing.Size(159, 22);
+            this.CusPhoneTb.TabIndex = 60;
             // 
             // label16
             // 
@@ -180,14 +180,14 @@ namespace RoomBookingDSII
             this.label16.TabIndex = 59;
             this.label16.Text = "Nombre de usuario";
             // 
-            // textBox1
+            // CusNameTb
             // 
-            this.textBox1.Font = new System.Drawing.Font("Montserrat", 8.999999F);
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.textBox1.Location = new System.Drawing.Point(195, 289);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 22);
-            this.textBox1.TabIndex = 58;
+            this.CusNameTb.Font = new System.Drawing.Font("Montserrat", 8.999999F);
+            this.CusNameTb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.CusNameTb.Location = new System.Drawing.Point(195, 289);
+            this.CusNameTb.Name = "CusNameTb";
+            this.CusNameTb.Size = new System.Drawing.Size(132, 22);
+            this.CusNameTb.TabIndex = 58;
             // 
             // label12
             // 
@@ -211,12 +211,12 @@ namespace RoomBookingDSII
             this.panel1.Controls.Add(this.DeleteBtn);
             this.panel1.Controls.Add(this.EditBtn);
             this.panel1.Controls.Add(this.SaveBtn);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.CusGenCb);
             this.panel1.Controls.Add(this.CusDOB);
             this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.CusPhoneTb);
             this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.CusNameTb);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.pictureBox14);
             this.panel1.Controls.Add(this.panel5);
@@ -225,18 +225,18 @@ namespace RoomBookingDSII
             this.panel1.Size = new System.Drawing.Size(1121, 653);
             this.panel1.TabIndex = 55;
             // 
-            // comboBox1
+            // CusGenCb
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Montserrat", 8.999999F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.CusGenCb.Font = new System.Drawing.Font("Montserrat", 8.999999F);
+            this.CusGenCb.FormattingEnabled = true;
+            this.CusGenCb.Items.AddRange(new object[] {
             "Male",
             "Female",
             "otre"});
-            this.comboBox1.Location = new System.Drawing.Point(583, 287);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(169, 24);
-            this.comboBox1.TabIndex = 66;
+            this.CusGenCb.Location = new System.Drawing.Point(583, 287);
+            this.CusGenCb.Name = "CusGenCb";
+            this.CusGenCb.Size = new System.Drawing.Size(169, 24);
+            this.CusGenCb.TabIndex = 66;
             // 
             // CusDOB
             // 
@@ -245,9 +245,9 @@ namespace RoomBookingDSII
             this.CusDOB.ForeColor = System.Drawing.Color.White;
             this.CusDOB.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.CusDOB.FormatCustom = null;
-            this.CusDOB.Location = new System.Drawing.Point(808, 289);
+            this.CusDOB.Location = new System.Drawing.Point(787, 277);
             this.CusDOB.Name = "CusDOB";
-            this.CusDOB.Size = new System.Drawing.Size(181, 24);
+            this.CusDOB.Size = new System.Drawing.Size(202, 36);
             this.CusDOB.TabIndex = 65;
             this.CusDOB.Value = new System.DateTime(2022, 7, 17, 4, 35, 13, 340);
             // 
@@ -399,6 +399,7 @@ namespace RoomBookingDSII
             this.DeleteBtn.Size = new System.Drawing.Size(128, 41);
             this.DeleteBtn.TabIndex = 75;
             this.DeleteBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
             // 
             // EditBtn
             // 
@@ -424,6 +425,7 @@ namespace RoomBookingDSII
             this.EditBtn.Size = new System.Drawing.Size(128, 41);
             this.EditBtn.TabIndex = 74;
             this.EditBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.EditBtn.Click += new System.EventHandler(this.EditBtn_Click);
             // 
             // SaveBtn
             // 
@@ -507,6 +509,7 @@ namespace RoomBookingDSII
             this.CustomersDGV.ThemeStyle.RowsStyle.Height = 22;
             this.CustomersDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.CustomersDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.CustomersDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CustomersDGV_CellContentClick);
             // 
             // Customers
             // 
@@ -559,13 +562,13 @@ namespace RoomBookingDSII
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox CusPhoneTb;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox CusNameTb;
         private System.Windows.Forms.Label label12;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipseFront;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CusGenCb;
         private Bunifu.Framework.UI.BunifuDatepicker CusDOB;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.Panel panel5;
