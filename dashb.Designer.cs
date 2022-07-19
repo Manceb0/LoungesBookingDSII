@@ -30,7 +30,12 @@ namespace RoomBookingDSII
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashb));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.SaveBtn = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.CusNameTb = new System.Windows.Forms.TextBox();
+            this.CusIdCb = new System.Windows.Forms.ComboBox();
+            this.laelll = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -89,11 +94,11 @@ namespace RoomBookingDSII
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
+            this.FreeRoomsProgress = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.AVLbl1 = new System.Windows.Forms.Label();
             this.AVLbl = new System.Windows.Forms.Label();
-            this.BLbl = new System.Windows.Forms.Label();
+            this.Blbl = new System.Windows.Forms.Label();
             this.AVProgress = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.BProgress = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -115,6 +120,8 @@ namespace RoomBookingDSII
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.R20.SuspendLayout();
@@ -139,7 +146,7 @@ namespace RoomBookingDSII
             this.R1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.guna2CircleProgressBar1.SuspendLayout();
+            this.FreeRoomsProgress.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel4.SuspendLayout();
@@ -159,6 +166,10 @@ namespace RoomBookingDSII
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.SaveBtn);
+            this.panel1.Controls.Add(this.CusNameTb);
+            this.panel1.Controls.Add(this.CusIdCb);
+            this.panel1.Controls.Add(this.laelll);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.R20);
@@ -186,6 +197,59 @@ namespace RoomBookingDSII
             this.panel1.Size = new System.Drawing.Size(980, 653);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // SaveBtn
+            // 
+            this.SaveBtn.ActiveBorderThickness = 1;
+            this.SaveBtn.ActiveCornerRadius = 20;
+            this.SaveBtn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.SaveBtn.ActiveForecolor = System.Drawing.Color.White;
+            this.SaveBtn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.SaveBtn.BackColor = System.Drawing.Color.White;
+            this.SaveBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SaveBtn.BackgroundImage")));
+            this.SaveBtn.ButtonText = "agendar";
+            this.SaveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SaveBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SaveBtn.ForeColor = System.Drawing.Color.SeaGreen;
+            this.SaveBtn.IdleBorderThickness = 1;
+            this.SaveBtn.IdleCornerRadius = 20;
+            this.SaveBtn.IdleFillColor = System.Drawing.Color.Firebrick;
+            this.SaveBtn.IdleForecolor = System.Drawing.Color.White;
+            this.SaveBtn.IdleLineColor = System.Drawing.Color.Firebrick;
+            this.SaveBtn.Location = new System.Drawing.Point(566, 182);
+            this.SaveBtn.Margin = new System.Windows.Forms.Padding(5);
+            this.SaveBtn.Name = "SaveBtn";
+            this.SaveBtn.Size = new System.Drawing.Size(128, 39);
+            this.SaveBtn.TabIndex = 74;
+            this.SaveBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SaveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
+            // 
+            // CusNameTb
+            // 
+            this.CusNameTb.Location = new System.Drawing.Point(445, 190);
+            this.CusNameTb.Name = "CusNameTb";
+            this.CusNameTb.Size = new System.Drawing.Size(113, 20);
+            this.CusNameTb.TabIndex = 38;
+            // 
+            // CusIdCb
+            // 
+            this.CusIdCb.FormattingEnabled = true;
+            this.CusIdCb.Location = new System.Drawing.Point(341, 190);
+            this.CusIdCb.Name = "CusIdCb";
+            this.CusIdCb.Size = new System.Drawing.Size(98, 21);
+            this.CusIdCb.TabIndex = 37;
+            this.CusIdCb.SelectionChangeCommitted += new System.EventHandler(this.CusIdCb_SelectionChangeCommitted);
+            // 
+            // laelll
+            // 
+            this.laelll.AutoSize = true;
+            this.laelll.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.laelll.ForeColor = System.Drawing.Color.Goldenrod;
+            this.laelll.Location = new System.Drawing.Point(273, 189);
+            this.laelll.Name = "laelll";
+            this.laelll.Size = new System.Drawing.Size(70, 22);
+            this.laelll.TabIndex = 36;
+            this.laelll.Text = "Cliente";
             // 
             // panel5
             // 
@@ -283,7 +347,7 @@ namespace RoomBookingDSII
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(88, 226);
+            this.label12.Location = new System.Drawing.Point(173, 226);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(110, 22);
             this.label12.TabIndex = 27;
@@ -295,11 +359,12 @@ namespace RoomBookingDSII
             this.R20.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R20.BorderRadius = 25;
             this.R20.Controls.Add(this.guna2Panel34);
-            this.R20.Location = new System.Drawing.Point(663, 464);
+            this.R20.Location = new System.Drawing.Point(713, 464);
             this.R20.Name = "R20";
             this.R20.ShadowDecoration.Parent = this.R20;
             this.R20.Size = new System.Drawing.Size(128, 65);
             this.R20.TabIndex = 19;
+            this.R20.Paint += new System.Windows.Forms.PaintEventHandler(this.R20_Paint);
             // 
             // guna2Panel34
             // 
@@ -317,11 +382,12 @@ namespace RoomBookingDSII
             this.R19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R19.BorderRadius = 25;
             this.R19.Controls.Add(this.guna2Panel18);
-            this.R19.Location = new System.Drawing.Point(529, 464);
+            this.R19.Location = new System.Drawing.Point(579, 464);
             this.R19.Name = "R19";
             this.R19.ShadowDecoration.Parent = this.R19;
             this.R19.Size = new System.Drawing.Size(128, 65);
             this.R19.TabIndex = 15;
+            this.R19.Paint += new System.Windows.Forms.PaintEventHandler(this.R19_Paint);
             // 
             // guna2Panel18
             // 
@@ -339,11 +405,12 @@ namespace RoomBookingDSII
             this.R10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R10.BorderRadius = 25;
             this.R10.Controls.Add(this.guna2Panel36);
-            this.R10.Location = new System.Drawing.Point(663, 322);
+            this.R10.Location = new System.Drawing.Point(713, 322);
             this.R10.Name = "R10";
             this.R10.ShadowDecoration.Parent = this.R10;
             this.R10.Size = new System.Drawing.Size(128, 65);
             this.R10.TabIndex = 17;
+            this.R10.Paint += new System.Windows.Forms.PaintEventHandler(this.R10_Paint);
             // 
             // guna2Panel36
             // 
@@ -361,11 +428,12 @@ namespace RoomBookingDSII
             this.R9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R9.BorderRadius = 25;
             this.R9.Controls.Add(this.guna2Panel10);
-            this.R9.Location = new System.Drawing.Point(529, 322);
+            this.R9.Location = new System.Drawing.Point(579, 322);
             this.R9.Name = "R9";
             this.R9.ShadowDecoration.Parent = this.R9;
             this.R9.Size = new System.Drawing.Size(128, 65);
             this.R9.TabIndex = 7;
+            this.R9.Paint += new System.Windows.Forms.PaintEventHandler(this.R9_Paint);
             // 
             // guna2Panel10
             // 
@@ -383,11 +451,12 @@ namespace RoomBookingDSII
             this.R15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R15.BorderRadius = 25;
             this.R15.Controls.Add(this.guna2Panel38);
-            this.R15.Location = new System.Drawing.Point(663, 393);
+            this.R15.Location = new System.Drawing.Point(713, 393);
             this.R15.Name = "R15";
             this.R15.ShadowDecoration.Parent = this.R15;
             this.R15.Size = new System.Drawing.Size(128, 65);
             this.R15.TabIndex = 18;
+            this.R15.Paint += new System.Windows.Forms.PaintEventHandler(this.R15_Paint);
             // 
             // guna2Panel38
             // 
@@ -405,11 +474,12 @@ namespace RoomBookingDSII
             this.R14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R14.BorderRadius = 25;
             this.R14.Controls.Add(this.guna2Panel20);
-            this.R14.Location = new System.Drawing.Point(529, 393);
+            this.R14.Location = new System.Drawing.Point(579, 393);
             this.R14.Name = "R14";
             this.R14.ShadowDecoration.Parent = this.R14;
             this.R14.Size = new System.Drawing.Size(128, 65);
             this.R14.TabIndex = 11;
+            this.R14.Paint += new System.Windows.Forms.PaintEventHandler(this.R14_Paint);
             // 
             // guna2Panel20
             // 
@@ -427,11 +497,12 @@ namespace RoomBookingDSII
             this.R5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R5.BorderRadius = 25;
             this.R5.Controls.Add(this.guna2Panel40);
-            this.R5.Location = new System.Drawing.Point(663, 251);
+            this.R5.Location = new System.Drawing.Point(713, 251);
             this.R5.Name = "R5";
             this.R5.ShadowDecoration.Parent = this.R5;
             this.R5.Size = new System.Drawing.Size(128, 65);
             this.R5.TabIndex = 16;
+            this.R5.Paint += new System.Windows.Forms.PaintEventHandler(this.R5_Paint);
             // 
             // guna2Panel40
             // 
@@ -449,11 +520,12 @@ namespace RoomBookingDSII
             this.R4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R4.BorderRadius = 25;
             this.R4.Controls.Add(this.guna2Panel6);
-            this.R4.Location = new System.Drawing.Point(529, 251);
+            this.R4.Location = new System.Drawing.Point(579, 251);
             this.R4.Name = "R4";
             this.R4.ShadowDecoration.Parent = this.R4;
             this.R4.Size = new System.Drawing.Size(128, 65);
             this.R4.TabIndex = 3;
+            this.R4.Paint += new System.Windows.Forms.PaintEventHandler(this.R4_Paint);
             // 
             // guna2Panel6
             // 
@@ -470,11 +542,12 @@ namespace RoomBookingDSII
             this.R17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R17.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R17.Controls.Add(this.guna2Panel22);
-            this.R17.Location = new System.Drawing.Point(261, 464);
+            this.R17.Location = new System.Drawing.Point(311, 464);
             this.R17.Name = "R17";
             this.R17.ShadowDecoration.Parent = this.R17;
             this.R17.Size = new System.Drawing.Size(128, 65);
             this.R17.TabIndex = 13;
+            this.R17.Paint += new System.Windows.Forms.PaintEventHandler(this.R17_Paint);
             // 
             // guna2Panel22
             // 
@@ -491,11 +564,12 @@ namespace RoomBookingDSII
             this.R7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R7.Controls.Add(this.guna2Panel12);
-            this.R7.Location = new System.Drawing.Point(261, 322);
+            this.R7.Location = new System.Drawing.Point(311, 322);
             this.R7.Name = "R7";
             this.R7.ShadowDecoration.Parent = this.R7;
             this.R7.Size = new System.Drawing.Size(128, 65);
             this.R7.TabIndex = 5;
+            this.R7.Paint += new System.Windows.Forms.PaintEventHandler(this.R7_Paint);
             // 
             // guna2Panel12
             // 
@@ -512,11 +586,12 @@ namespace RoomBookingDSII
             this.R18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R18.Controls.Add(this.guna2Panel24);
-            this.R18.Location = new System.Drawing.Point(395, 464);
+            this.R18.Location = new System.Drawing.Point(445, 464);
             this.R18.Name = "R18";
             this.R18.ShadowDecoration.Parent = this.R18;
             this.R18.Size = new System.Drawing.Size(128, 65);
             this.R18.TabIndex = 14;
+            this.R18.Paint += new System.Windows.Forms.PaintEventHandler(this.R18_Paint);
             // 
             // guna2Panel24
             // 
@@ -533,11 +608,12 @@ namespace RoomBookingDSII
             this.R8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R8.Controls.Add(this.guna2Panel14);
-            this.R8.Location = new System.Drawing.Point(395, 322);
+            this.R8.Location = new System.Drawing.Point(445, 322);
             this.R8.Name = "R8";
             this.R8.ShadowDecoration.Parent = this.R8;
             this.R8.Size = new System.Drawing.Size(128, 65);
             this.R8.TabIndex = 6;
+            this.R8.Paint += new System.Windows.Forms.PaintEventHandler(this.R8_Paint);
             // 
             // guna2Panel14
             // 
@@ -554,11 +630,12 @@ namespace RoomBookingDSII
             this.R12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R12.Controls.Add(this.guna2Panel26);
-            this.R12.Location = new System.Drawing.Point(261, 393);
+            this.R12.Location = new System.Drawing.Point(311, 393);
             this.R12.Name = "R12";
             this.R12.ShadowDecoration.Parent = this.R12;
             this.R12.Size = new System.Drawing.Size(128, 65);
             this.R12.TabIndex = 9;
+            this.R12.Paint += new System.Windows.Forms.PaintEventHandler(this.R12_Paint);
             // 
             // guna2Panel26
             // 
@@ -575,11 +652,12 @@ namespace RoomBookingDSII
             this.R2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R2.Controls.Add(this.guna2Panel4);
-            this.R2.Location = new System.Drawing.Point(261, 251);
+            this.R2.Location = new System.Drawing.Point(311, 251);
             this.R2.Name = "R2";
             this.R2.ShadowDecoration.Parent = this.R2;
             this.R2.Size = new System.Drawing.Size(128, 65);
             this.R2.TabIndex = 1;
+            this.R2.Paint += new System.Windows.Forms.PaintEventHandler(this.R2_Paint);
             // 
             // guna2Panel4
             // 
@@ -596,11 +674,12 @@ namespace RoomBookingDSII
             this.R16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R16.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R16.Controls.Add(this.guna2Panel28);
-            this.R16.Location = new System.Drawing.Point(127, 464);
+            this.R16.Location = new System.Drawing.Point(177, 464);
             this.R16.Name = "R16";
             this.R16.ShadowDecoration.Parent = this.R16;
             this.R16.Size = new System.Drawing.Size(128, 65);
             this.R16.TabIndex = 12;
+            this.R16.Paint += new System.Windows.Forms.PaintEventHandler(this.R16_Paint);
             // 
             // guna2Panel28
             // 
@@ -617,11 +696,12 @@ namespace RoomBookingDSII
             this.R6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R6.Controls.Add(this.guna2Panel16);
-            this.R6.Location = new System.Drawing.Point(127, 322);
+            this.R6.Location = new System.Drawing.Point(177, 322);
             this.R6.Name = "R6";
             this.R6.ShadowDecoration.Parent = this.R6;
             this.R6.Size = new System.Drawing.Size(128, 65);
             this.R6.TabIndex = 4;
+            this.R6.Paint += new System.Windows.Forms.PaintEventHandler(this.R6_Paint);
             // 
             // guna2Panel16
             // 
@@ -638,11 +718,12 @@ namespace RoomBookingDSII
             this.R13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R13.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R13.Controls.Add(this.guna2Panel30);
-            this.R13.Location = new System.Drawing.Point(395, 393);
+            this.R13.Location = new System.Drawing.Point(445, 393);
             this.R13.Name = "R13";
             this.R13.ShadowDecoration.Parent = this.R13;
             this.R13.Size = new System.Drawing.Size(128, 65);
             this.R13.TabIndex = 10;
+            this.R13.Paint += new System.Windows.Forms.PaintEventHandler(this.R13_Paint);
             // 
             // guna2Panel30
             // 
@@ -659,11 +740,12 @@ namespace RoomBookingDSII
             this.R11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R11.Controls.Add(this.guna2Panel32);
-            this.R11.Location = new System.Drawing.Point(127, 393);
+            this.R11.Location = new System.Drawing.Point(177, 393);
             this.R11.Name = "R11";
             this.R11.ShadowDecoration.Parent = this.R11;
             this.R11.Size = new System.Drawing.Size(128, 65);
             this.R11.TabIndex = 8;
+            this.R11.Paint += new System.Windows.Forms.PaintEventHandler(this.R11_Paint);
             // 
             // guna2Panel32
             // 
@@ -681,11 +763,12 @@ namespace RoomBookingDSII
             this.R3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(242)))));
             this.R3.BorderRadius = 25;
             this.R3.Controls.Add(this.guna2Panel8);
-            this.R3.Location = new System.Drawing.Point(395, 251);
+            this.R3.Location = new System.Drawing.Point(445, 251);
             this.R3.Name = "R3";
             this.R3.ShadowDecoration.Parent = this.R3;
             this.R3.Size = new System.Drawing.Size(128, 65);
             this.R3.TabIndex = 2;
+            this.R3.Paint += new System.Windows.Forms.PaintEventHandler(this.R3_Paint);
             // 
             // guna2Panel8
             // 
@@ -702,11 +785,12 @@ namespace RoomBookingDSII
             this.R1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.R1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.R1.Controls.Add(this.guna2Panel2);
-            this.R1.Location = new System.Drawing.Point(127, 251);
+            this.R1.Location = new System.Drawing.Point(177, 251);
             this.R1.Name = "R1";
             this.R1.ShadowDecoration.Parent = this.R1;
             this.R1.Size = new System.Drawing.Size(128, 65);
             this.R1.TabIndex = 0;
+            this.R1.Paint += new System.Windows.Forms.PaintEventHandler(this.R1_Paint);
             // 
             // guna2Panel2
             // 
@@ -798,17 +882,19 @@ namespace RoomBookingDSII
             this.label3.TabIndex = 12;
             this.label3.Text = "Log out";
             // 
-            // guna2CircleProgressBar1
+            // FreeRoomsProgress
             // 
-            this.guna2CircleProgressBar1.Controls.Add(this.label5);
-            this.guna2CircleProgressBar1.Controls.Add(this.label4);
-            this.guna2CircleProgressBar1.Location = new System.Drawing.Point(1167, 115);
-            this.guna2CircleProgressBar1.Name = "guna2CircleProgressBar1";
-            this.guna2CircleProgressBar1.ProgressThickness = 25;
-            this.guna2CircleProgressBar1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleProgressBar1.ShadowDecoration.Parent = this.guna2CircleProgressBar1;
-            this.guna2CircleProgressBar1.Size = new System.Drawing.Size(174, 171);
-            this.guna2CircleProgressBar1.TabIndex = 13;
+            this.FreeRoomsProgress.Controls.Add(this.label5);
+            this.FreeRoomsProgress.Controls.Add(this.AVLbl1);
+            this.FreeRoomsProgress.Location = new System.Drawing.Point(1167, 115);
+            this.FreeRoomsProgress.Name = "FreeRoomsProgress";
+            this.FreeRoomsProgress.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.FreeRoomsProgress.ProgressColor2 = System.Drawing.Color.Red;
+            this.FreeRoomsProgress.ProgressThickness = 25;
+            this.FreeRoomsProgress.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.FreeRoomsProgress.ShadowDecoration.Parent = this.FreeRoomsProgress;
+            this.FreeRoomsProgress.Size = new System.Drawing.Size(174, 171);
+            this.FreeRoomsProgress.TabIndex = 13;
             // 
             // label5
             // 
@@ -820,35 +906,35 @@ namespace RoomBookingDSII
             this.label5.TabIndex = 15;
             this.label5.Text = "Salones";
             // 
-            // label4
+            // AVLbl1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(69, 57);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 29);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "20";
+            this.AVLbl1.AutoSize = true;
+            this.AVLbl1.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AVLbl1.Location = new System.Drawing.Point(69, 57);
+            this.AVLbl1.Name = "AVLbl1";
+            this.AVLbl1.Size = new System.Drawing.Size(39, 29);
+            this.AVLbl1.TabIndex = 14;
+            this.AVLbl1.Text = "20";
             // 
             // AVLbl
             // 
             this.AVLbl.AutoSize = true;
-            this.AVLbl.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AVLbl.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AVLbl.Location = new System.Drawing.Point(1179, 320);
             this.AVLbl.Name = "AVLbl";
-            this.AVLbl.Size = new System.Drawing.Size(104, 22);
+            this.AVLbl.Size = new System.Drawing.Size(86, 18);
             this.AVLbl.TabIndex = 16;
             this.AVLbl.Text = "Disponibles";
             // 
-            // BLbl
+            // Blbl
             // 
-            this.BLbl.AutoSize = true;
-            this.BLbl.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BLbl.Location = new System.Drawing.Point(1180, 349);
-            this.BLbl.Name = "BLbl";
-            this.BLbl.Size = new System.Drawing.Size(103, 22);
-            this.BLbl.TabIndex = 17;
-            this.BLbl.Text = "Reservados";
+            this.Blbl.AutoSize = true;
+            this.Blbl.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Blbl.Location = new System.Drawing.Point(1180, 349);
+            this.Blbl.Name = "Blbl";
+            this.Blbl.Size = new System.Drawing.Size(82, 18);
+            this.Blbl.TabIndex = 17;
+            this.Blbl.Text = "Reservados";
             // 
             // AVProgress
             // 
@@ -857,6 +943,8 @@ namespace RoomBookingDSII
             this.AVProgress.Location = new System.Drawing.Point(1200, 428);
             this.AVProgress.Maximum = 20;
             this.AVProgress.Name = "AVProgress";
+            this.AVProgress.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.AVProgress.ProgressColor2 = System.Drawing.Color.Maroon;
             this.AVProgress.ShadowDecoration.Parent = this.AVProgress;
             this.AVProgress.Size = new System.Drawing.Size(137, 10);
             this.AVProgress.TabIndex = 18;
@@ -869,6 +957,8 @@ namespace RoomBookingDSII
             this.BProgress.Location = new System.Drawing.Point(1201, 464);
             this.BProgress.Maximum = 20;
             this.BProgress.Name = "BProgress";
+            this.BProgress.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BProgress.ProgressColor2 = System.Drawing.Color.Maroon;
             this.BProgress.ShadowDecoration.Parent = this.BProgress;
             this.BProgress.Size = new System.Drawing.Size(136, 10);
             this.BProgress.TabIndex = 19;
@@ -1057,11 +1147,33 @@ namespace RoomBookingDSII
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(1228, 405);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 18);
+            this.label4.TabIndex = 28;
+            this.label4.Text = "Disponibles";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(1231, 443);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(76, 18);
+            this.label6.TabIndex = 29;
+            this.label6.Text = "Reservado";
+            // 
             // dashb
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1353, 702);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.BookedLbl);
             this.Controls.Add(this.pictureBox12);
@@ -1073,11 +1185,11 @@ namespace RoomBookingDSII
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.BProgress);
             this.Controls.Add(this.AVProgress);
-            this.Controls.Add(this.BLbl);
+            this.Controls.Add(this.Blbl);
             this.Controls.Add(this.AVLbl);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.guna2CircleProgressBar1);
+            this.Controls.Add(this.FreeRoomsProgress);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.label2);
@@ -1119,8 +1231,8 @@ namespace RoomBookingDSII
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.guna2CircleProgressBar1.ResumeLayout(false);
-            this.guna2CircleProgressBar1.PerformLayout();
+            this.FreeRoomsProgress.ResumeLayout(false);
+            this.FreeRoomsProgress.PerformLayout();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel4.ResumeLayout(false);
@@ -1159,9 +1271,9 @@ namespace RoomBookingDSII
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar1;
+        private Guna.UI2.WinForms.Guna2CircleProgressBar FreeRoomsProgress;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label AVLbl1;
         private Guna.UI2.WinForms.Guna2Panel R1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private System.Windows.Forms.Label BookedLbl;
@@ -1176,7 +1288,7 @@ namespace RoomBookingDSII
         private System.Windows.Forms.PictureBox pictureBox9;
         private Guna.UI2.WinForms.Guna2ProgressBar BProgress;
         private Guna.UI2.WinForms.Guna2ProgressBar AVProgress;
-        private System.Windows.Forms.Label BLbl;
+        private System.Windows.Forms.Label Blbl;
         private System.Windows.Forms.Label AVLbl;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label18;
@@ -1227,6 +1339,12 @@ namespace RoomBookingDSII
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
         private System.Windows.Forms.PictureBox pictureBox13;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse3;
+        private System.Windows.Forms.TextBox CusNameTb;
+        private System.Windows.Forms.ComboBox CusIdCb;
+        private System.Windows.Forms.Label laelll;
+        private Bunifu.Framework.UI.BunifuThinButton2 SaveBtn;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label4;
     }
 }
 
